@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Custom_TerminalBlock_OnShore")(type "KiCad")(uri "E:/projects/reflow_plate/v0/kicad_lib/footprints/Custom_TerminalBlock_OnShore.pretty")(options "")(descr ""))
+)
