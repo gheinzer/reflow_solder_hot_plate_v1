@@ -7,7 +7,7 @@
 	(title_block
 		(title "Reflow Soldering Hot Plate Driver")
 		(date "2024-07-30")
-		(rev "v1.0.0")
+		(rev "v1.1.0")
 	)
 	(lib_symbols
 		(symbol "Connector:Barrel_Jack_Switch"
@@ -229,7 +229,7 @@
 				)
 			)
 		)
-		(symbol "Custom_Regulator_Linear:LM323"
+		(symbol "Custom_Regulator_Linear:L78xx"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -242,7 +242,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "LM323"
+			(property "Value" "L78xx"
 				(at -7.874 7.112 0)
 				(effects
 					(font
@@ -287,7 +287,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LM323_0_1"
+			(symbol "L78xx_0_1"
 				(rectangle
 					(start -7.62 5.715)
 					(end 7.62 -3.81)
@@ -300,7 +300,7 @@
 					)
 				)
 			)
-			(symbol "LM323_1_1"
+			(symbol "L78xx_1_1"
 				(pin power_in line
 					(at -10.16 2.54 0)
 					(length 2.54)
@@ -2641,7 +2641,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Custom_Regulator_Linear:LM323")
+		(lib_id "Custom_Regulator_Linear:L78xx")
 		(at 68.58 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2657,7 +2657,7 @@
 				)
 			)
 		)
-		(property "Value" "LT323AT#PBF"
+		(property "Value" "L7805CV"
 			(at 68.58 27.94 0)
 			(effects
 				(font
@@ -2666,11 +2666,12 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
-			(at 68.58 29.21 0)
+			(at 66.04 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)

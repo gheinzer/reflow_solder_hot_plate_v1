@@ -10,7 +10,7 @@
 	(title_block
 		(title "Reflow Soldering Hot Plate Driver")
 		(date "2024-070-30")
-		(rev "v1.0.0")
+		(rev "v1.1.0")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -14946,7 +14946,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "LT323AT#PBF"
+		(property "Value" "L7805CV"
 			(at 2.54 -2 180)
 			(layer "B.Fab")
 			(uuid "a88c7fe2-4bd9-42c1-a1e6-d5bc7e1bccb0")
