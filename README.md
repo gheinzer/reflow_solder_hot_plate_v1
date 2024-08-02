@@ -15,7 +15,7 @@ I'm an electrical engineering apprentice, so I'm happy to learn about the mistak
 - ❇️ Separate hot plate and driver PCBs
 - 🤏 Maximum PCB size: 100.0x100.0 mm (so it's cheap to order from JLCPCB)
 - ♨️ Useable heated area for a rectangular PCB: ca. 84.0x73.0 mm
-  - I know that this is not great, but the heater PCB can be changed out independently of the driver. 
+  - I know this is not that great, but the heater PCB can be swapped out independently of the driver. 
 - 🔌 24V power supply input
 - 📏 4-wire-voltage measurement for the heating element (used to calculate the temperature)
 - ⚡ Current measurement and -regulation for variable-speed temperature transitions
